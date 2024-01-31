@@ -3,6 +3,7 @@
 import os
 ffmpeg_path = "ffmpeg" #dodatkowo ffmpeg był potrzebny to musiałem go dodatkowo doinstalować "TwitchDownloaderCLI ffmpeg -d" ta komenda pomogła
 twitch_cli_path = "TwitchDownloaderCLI.exe" #tutaj podaje nazwe executable pliku TwitchDownloaderCLI, jak masz Mac'a to tu można znaleźć inne wersje https://github.com/lay295/TwitchDownloader/releases/
+# to exe wyżej pobrałem stąd https://github.com/lay295/TwitchDownloader/releases/download/1.54.0/TwitchDownloaderCLI-1.54.0-Windows-x64.zip wystarczy potem wypakować exe i wrzucić w główny folder
 def create_catalog(name):
     try:
         os.mkdir(name)
